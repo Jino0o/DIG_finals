@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+.register-container {
+    max-width: 400px;
+    margin: 200px auto; /* Adjust the top margin to center vertically */
+    padding: 40px; /* Increase padding */
+    border: 5px solid var(--color-dark-variant);
+    border-radius: 10px;
+    border-color: #FF6F61;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form horizontally */
+    background-color: white;
+  }
+  
+  .register-container form {
+    width: 100%; /* Make the form fill the container width */
+    max-width: 300px; /* Set a max-width for the form */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increase gap between elements */
+  }
+  
+  .register-container h2 {
+    text-align: center;
+    margin-bottom: 30px; /* Increase margin bottom */
+    font-size: 40px; /* Increase font size */
+    color: black;
+  }
+  
+  .register-container input {
+    padding: 15px; /* Increase padding */
+    border-radius: 8px; /* Increase border radius */
+    border: 3px solid var(--color-dark-variant); /* Increase border thickness */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  .register-container button {
+    padding: 5px; /* Increase padding */
+    border-radius: 8px; /* Increase border radius */
+    border: 5px solid;
+    border-color: #002244;
+    background-color: #FF6F61;
+    color: #002244;
+    cursor: pointer;
+    font-size: 25px; /* Increase font size */
+    width: 100%;
+  }
+  
+  .register-container button:hover {
+    background-color: var(--color-white);
+  }
+
+.registration-step.hidden {
+  display: none;
+}
+
+#step1 .form-group {
+  margin-bottom: 2px; /* Adjust the bottom margin */
+}
